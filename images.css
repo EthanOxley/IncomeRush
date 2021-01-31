@@ -1,0 +1,161 @@
+/* Start Game Area css */
+
+.body{
+    background-color: black;
+}
+/* Start Stats Display CSS */
+
+.statsdisplay{
+    background-color: black;
+    color: gold;
+}
+
+#golddisplay{
+    margin-left: 35px;
+}
+
+#victorydisplay{
+    margin-right: 35px
+}
+
+/* End Stats Display CSS */
+
+
+/* Start Play Area CSS */
+
+.gamearea{
+    position: relative;
+    margin-top: 15px;
+    width: 1400px;
+    height: 630px;
+    background-color: rgb(171, 240, 114);
+}
+
+.lane{
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    height: 90px;
+    width: 1400px;
+}
+
+.funit{
+    position: absolute;
+    margin-top: 27px;
+    height: 35px;
+    width: 35px;
+}
+
+.eunit{
+    position: absolute;
+    margin-top: 27px;
+    height: 35px;
+    width: 35px;
+}
+/* End Game Area CSS */
+
+/* Start Unit Animation Keyframes */
+
+@keyframes march{
+    0%   {left:0px; display: hidden; opacity: 0;}
+    10%   {left:140px; opacity: 1;}
+    20%   {left:280px; opacity: 1;}
+    30%   {left:420px; opacity: 1;}
+    40%   {left:560px; opacity: 1;}
+    50%   {left:700px; opacity: 1;}
+    60%   {left:840px; opacity: 1;}
+    70%   {left:980px; opacity: 1;}
+    80%   {left:1120px; opacity: 1;}
+    90%   {left:1260px; opacity: 1;}
+    99%   {left:1374px; opacity: 1;} 
+    100%   {left:1375px; display: hidden; opacity: 0;}
+}
+
+@keyframes enemymarch{
+    0% {left:1375px; display: hidden; opacity: 0;}
+    10% {left:1260px; opacity: 1;}
+    20% {left:1120px; opacity: 1;}
+    30% {left:980px; opacity: 1;}
+    40% {left:840px; opacity: 1;}
+    50% {left:700px; opacity: 1;}
+    60% {left:560px; opacity: 1;}
+    70% {left:420px; opacity: 1;}
+    80% {left:280px; opacity: 1;}
+    90% {left:140px; opacity: 1;}
+    99% {left:1px; opacity: 1;}
+    100% {left:0px;}
+}
+/* End Unit Animation Keyframes */
+
+/* Start Unit Portrait CSS */
+.unitselect{
+    background-color: black;
+    margin-top: 15px;
+    height: 50px;
+
+}
+
+
+.unitportrait{
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    border-color: rgb(221, 8, 8);
+    border-style: solid;
+    border-width: 4px;
+}
+
+/* End Unit Portrait CSS */
+
+
+/* End Play Area CSS */
+
+
+
+
+/* Start Level Select CSS */
+
+.titlecontainer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.levelselectcontainer{
+    width: 100%;
+    height: 270px;
+    background-color: gold;
+}
+
+.levelcell{
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    margin-top: 50px;
+}
+
+.levelcell a{
+    margin-left: 40%;
+    color: black;
+}
+
+.lstitle{
+    margin-top: 10px;
+    color: gold;
+}
+
+.controlscontainer{
+    background-color: rgb(170, 145, 1)
+}
+
+.unitstatscontainer{
+    background-color: black;
+}
+
+.statlist{
+    color: gold;
+}
+
+/* End Level Select CSS */

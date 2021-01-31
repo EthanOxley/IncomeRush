@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Level Select</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="images.css">
+  </head>
+  <body>
+    
+    <div class="container-fluid titlecontainer">
+        <div class="row justify-content-center">
+            <div class="col-3 justify-content-center">
+                <h2 class="lstitle">Level Select</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid levelselectcontainer">
+        <div class="row levelselect0 justify-content-around">
+            <div class="col-1 levelcell justify-content-center" onclick="level1click()">
+                <h2><a href="gamearea.html">1</a></h2>
+            </div>
+            <div class="col-1 levelcell justify-content-center" onclick="level2click()">
+                <h2><a href="gamearea.html">2</a></h2>
+            </div>
+            <div class="col-1 levelcell justify-content-center" onclick="level3click()">
+                <h2><a href="gamearea.html">3</a></h2>
+            </div>
+            <div class="col-1 levelcell justify-content-center" onclick="level4click()">
+                <h2><a href="gamearea.html">4</a></h2>
+            </div>
+            <div class="col-1 levelcell justify-content-center" onclick="level5click()">
+                <h2><a href="gamearea.html">5</a></h2>
+            </div>
+        </div>
+        <div class="row levelselect1 justify-content-around">
+            <div class="col-1 levelcell justify-content-center" onclick="level6click()">
+                <h2><a href="gamearea.html">6</a></h2>
+            </div>
+            <div class="col-1 levelcell justify-content-center" onclick="level7click()">
+                <h2><a href="gamearea.html">7</a></h2>
+            </div>
+            <div class="col-1 levelcell justify-content-center" onclick="level8click()">
+                <h2><a href="gamearea.html">8</a></h2>
+            </div>
+            <div class="col-1 levelcell justify-content-center" onclick="level9click()">
+                <h2><a href="gamearea.html">9</a></h2>
+            </div>
+            <div class="col-1 levelcell justify-content-center" onclick="level10click()">
+                <h2><a href="gamearea.html">10</a></h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid controlscontainer">
+        <div class="row">
+            <h2>Controls</h2>
+            <div class="col-3">
+                <li>Select Lane: Up and Down Arrow Keys</li>
+                <li>Select Unit: Left and Right Arrow Keys</li>
+            </div>
+            <div class="col-2">
+                <li>Send Unit: Space Bar</li>
+            </div>
+            <h2>Win Condition</h2>
+            <div class="col-2">
+                <li>Gain points by having units reach the enemy side</li>    
+            </div>
+            <div class="col-2">
+                <li>Win by reaching 15 points</li>    
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid unitstatscontainer">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <img src="squire.gif" alt="">
+                <ul class="statlist">
+                    <li>Squire</li>
+                    <li>Cost: 20</li>
+                    <li>Income: 20</li>
+                    <li>Attack: 1</li>
+                    <li>Health: 1</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <img src="knight.gif" alt="">
+                <ul class="statlist">
+                    <li>Knight</li>
+                    <li>Cost: 40</li>
+                    <li>Income: 30</li>
+                    <li>Attack: 4</li>
+                    <li>Health: 2</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <img src="armorknight.gif" alt="">
+                <ul class="statlist">
+                    <li>Armor Knight</li>
+                    <li>Cost: 80</li>
+                    <li>Income: 40</li>
+                    <li>Attack: 4</li>
+                    <li>Health: 10</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <img src="myrmidon.gif" alt="">
+                <ul class="statlist">
+                    <li>Myrmidon</li>
+                    <li>Cost: 150</li>
+                    <li>Income: 60</li>
+                    <li>Attack: 10</li>
+                    <li>Health: 8</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <img src="warden.gif" alt="">
+                <ul class="statlist">
+                    <li>Warden</li>
+                    <li>Cost: 200</li>
+                    <li>Income: 80</li>
+                    <li>Attack: 8</li>
+                    <li>Health: 25</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <img src="wizard.gif" alt="">
+                <ul class="statlist">
+                    <li>Wizard</li>
+                    <li>Cost: 250</li>
+                    <li>Income: 100</li>
+                    <li>Attack: 18</li>
+                    <li>Health: 20</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <img src="slayer.gif" alt="">
+                <ul class="statlist">
+                    <li>Slayer</li>
+                    <li>Cost: 400</li>
+                    <li>Income: 150</li>
+                    <li>Attack: 20</li>
+                    <li>Health: 30</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <img src="king.gif" alt="">
+                <ul class="statlist">
+                    <li>King</li>
+                    <li>Cost: 800</li>
+                    <li>Income: 200</li>
+                    <li>Attack: 30</li>
+                    <li>Health: 40</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <img src="holywarrior.gif" alt="">
+                <ul class="statlist">
+                    <li>Holy Warrior</li>
+                    <li>Cost: 1200</li>
+                    <li>Income: 600</li>
+                    <li>Attack: 40</li>
+                    <li>Health: 60</li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <img src="demon.gif" alt="">
+                <ul class="statlist">
+                    <li>Demon</li>
+                    <li>Cost: 1800</li>
+                    <li>Income: 800</li>
+                    <li>Attack: 60</li>
+                    <li>Health: 80</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+      
+    
+    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
