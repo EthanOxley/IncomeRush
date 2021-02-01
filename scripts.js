@@ -610,7 +610,7 @@ function enemyspawn(){
                                 </div>
                                 `                               
     // Spawns most expensive unit computer player can currently afford and sets the stats of the corresponding lane depending on the randomnum from earlier.
-    if(compgold >= 1800){
+    if(compgold >= 3600){
         if(document.getElementById("eunit" + [randomnum]) == null){
             let eLaneSelect = document.getElementById("lane" + randomnum)
             eLaneSelect.appendChild(enemydemon)
@@ -648,7 +648,7 @@ function enemyspawn(){
             }
         }
     }
-    else if(compgold >= 1200){
+    else if(compgold >= 2400){
         if(document.getElementById("eunit" + [randomnum]) == null){
             let eLaneSelect = document.getElementById("lane" + randomnum)
             eLaneSelect.appendChild(enemyholywarrior)
@@ -686,7 +686,7 @@ function enemyspawn(){
             }
         }
     }
-    else if(compgold >= 800){
+    else if(compgold >= 1600){
         if(document.getElementById("eunit" + [randomnum]) == null){
             let eLaneSelect = document.getElementById("lane" + randomnum)
             eLaneSelect.appendChild(enemyking)
@@ -724,7 +724,7 @@ function enemyspawn(){
             }
         }
     }
-    else if(compgold >= 400){
+    else if(compgold >= 800){
         if(document.getElementById("eunit" + [randomnum]) == null){
             let eLaneSelect = document.getElementById("lane" + randomnum)
 
@@ -763,7 +763,7 @@ function enemyspawn(){
             }
         }
     }
-    else if(compgold >= 250){
+    else if(compgold >= 500){
         if(document.getElementById("eunit" + [randomnum]) == null){
             let eLaneSelect = document.getElementById("lane" + randomnum)
 
@@ -802,7 +802,7 @@ function enemyspawn(){
             }
         }
     }
-    else if(compgold >= 200){
+    else if(compgold >= 400){
         if(document.getElementById("eunit" + [randomnum]) == null){
             let eLaneSelect = document.getElementById("lane" + randomnum)
 
@@ -841,7 +841,7 @@ function enemyspawn(){
             }
         }
     }
-    else if(compgold >= 150){
+    else if(compgold >= 300){
         if(document.getElementById("eunit" + [randomnum]) == null){
             let eLaneSelect = document.getElementById("lane" + randomnum)
 
@@ -880,7 +880,7 @@ function enemyspawn(){
             }
         }
     }
-    else if(compgold >= 80){
+    else if(compgold >= 160){
         if(document.getElementById("eunit" + [randomnum]) == null){
             let eLaneSelect = document.getElementById("lane" + randomnum)
 
@@ -919,7 +919,7 @@ function enemyspawn(){
             }
         }
     }
-    else if(compgold >= 40){
+    else if(compgold >= 80){
         if(document.getElementById("eunit" + [randomnum]) == null){
             let eLaneSelect = document.getElementById("lane" + randomnum)
 
