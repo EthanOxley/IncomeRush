@@ -1045,7 +1045,7 @@ const computerincomeinterval = setInterval(function(){
     compgold = compgold + compincome;
 }, compinterval)
 
-// Creates event listener that acitvates upon the ending of the animations affecting it's corresponding HTML element which then calls a corresponding function
+// Creates event listener that acitvates upon the ending of the animation affecting it's corresponding HTML element which then calls a corresponding function
 function elane0listener(){
     document.getElementById("eunit0").addEventListener("animationend", eanimend0)
 }
